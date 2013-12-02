@@ -1,0 +1,8 @@
+#!/usr/bin/env python
+import sys
+from geode import *
+
+if __name__ == "__main__":
+  from other.themoon import make_the_moon
+  make_the_moon("moon_topo.jpg","moon.om")
+
